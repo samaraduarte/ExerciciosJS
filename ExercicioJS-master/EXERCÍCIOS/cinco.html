@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Exercicio 5</title> 	
+</head>
+<body> 
+    <p>5) Crie um objeto vazio Aluno</p>
+    <p>1. Adicione a propriedade nome com o valor com o seu nome.</p>
+    <p>2. Adicione a propriedade sobrenome com o valor do seu sobrenome</p>
+    <p>3. Troque o nome para o nome de uma pessoa que você gosta muito</p>
+    <p>4. Remova a propriedade nome</p>
+    <p>5. Verifique se a propriedade “time” existe neste objeto.</p>
+    <p>Não esqueça de adicionar um console.log entre cada execução.</p>
+</body>
+<script>
+    
+    var aluno = new Object()
+    console.log(aluno)
+
+    aluno.nome = "Samara"
+    console.log(aluno)
+
+    aluno.sobrenome = "Duarte"
+    console.log(aluno)
+
+    aluno.nome = "Cainan"
+    console.log(aluno)
+
+    delete aluno.nome
+    console.log(aluno)
+    
+    console.log(aluno.hasOwnProperty("time"))
+
+</script>
+</html>

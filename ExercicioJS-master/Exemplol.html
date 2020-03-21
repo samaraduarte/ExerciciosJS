@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Novo Parágrafo</title> 	
+	<style> 
+		.classelegal { border: solid black 20px ; } 
+	</style>
+</head>
+<body>
+	<h1>Exemplo</h1>
+	<p id="firstP">Primeiro Paragráfo</p> 
+	<p id="firstP2">Segundo Paragráfo</p> 
+	<p id="firstP3">Terceiro Paragráfo</p> 
+</body>
+
+<script>
+	function min_um(a,b) {
+		return (a <= b) ? a : b
+	}
+
+	function min_dois(a,b) {
+		let result = null
+		if (a <= b) {
+			result = a
+		}
+		else {
+			result = b
+		}
+		return result;
+	}
+
+	let result = min_um(10,20);
+	alert(result);
+
+</script>
+</html>
