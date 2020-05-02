@@ -1,42 +1,28 @@
-# ExerciciosJS
-## ATIVIDADE PRÁTICA - JAVASCRIPT MOBILE - PROF RAMON PEREIRA
-● Crie um repositório no GitHub chamado ExercicioJSMobile
-● Clone esse repositório na sua máquina e escreva o seu código dentre dele em
-pastas separadas. Cada exercício deverá estar em uma pasta.
-● Link com auxílio para a realização das tarefas:
-https://github.com/ramonbhb/JavaScriptMobile
-● Não esqueça de atualizar o repositório no fim (E.g commit and push)
-EXERCÍCIOS:
-1) Crie um código Javascript que solicite a localização de um usuário e imprima no
-HTML dentro de uma div chamada Map
-2) Na mesma div chamada Map, ao invés de escrever a coordenada do usuário, utilize
-a api do Google Maps para plotar o ponto no mapa
-(https://developers.google.com/maps/documentation/javascript/geolocation)
-referência.
-3) Crie uma página Web com a três funções distintas de vibração utilizando o método
-vibrate. Teste essa página no seu celular.
-4) Crie uma página URL para armazenar os dados e preferências de uma pessoa. Esta
-página deve conter: Caso ele não tenha definido os parâmetros a página deverá
-aparecer a informação “Você deve setar as suas configurações” e um formulário
-abaixo para salvar as informações. Você deverá salvar nome, cor favorita (código
-hexadecimal), idade, cidade onde mora. Você deverá armazenar cada um desses
-itens separadamente em localStorage. Quando a página for carregada e o usuário
-tiver definido os parâmetros ela deverá apresentar o nome da pessoa em <h1> , o
-fundo da página (body) deverá ser da cor favorita, a idade deverá ser escrita em um
-<h2> e a cidade onde mora em um parágrafo.
-5) Você deverá uma página criando um formulário para armazenar os dados de uma
-Universidade. Os dados serão nome, data de fundação, quantidade de campus,
-quantidade de alunos, quantidade de professores, quantidade cursos, melhor curso
-no MEC. Estes dados deverão ser armazenados no localStorage mas utilizando o
-formato de objeto. Os dados deverão ser recarregados na página e exibidos no
-console no formato objeto. Dica * Utilizar JSON Parse e JSON Stringify.
-6) Você deverá construir uma página chamada “Informação do seu computador” está
-página deverá exibir as seguintes informações: quantidade de memória ram, estado
-de conexão, linguagem do navegador, e o userAgent da página.
-7) Utilizando o conceito de fetchApi, crie uma página web que exiba os dados do
-endereço de IP de uma máquina. Endereço da API: https://ipinfo.io , Endereço de
-exemplo do uso do FetchApi: https://braziljs.org/artigos/fetch-api-e-o-javascript/ e
-https://github.com/ramonbhb/FrontEnd/blob/master/js/requisicoes.js
-8) ** EXTRA ** Notificações. Exige instalação de servidor local Web na sua máquina
-(Para Windows sugiro o LAMP). Criar uma página web que exiba notificações do tipo
-persistente, não persistente.
+1) Escreva uma função min(a,b) que retorna o menor número entre a e b
+2) Crie uma função pow(X,Y) que retorna X elevado a Y.
+3) Crie uma página web que pergunta por dois números X e Y e retorna a
+potência do primeiro pelo segundo através de uma função pow(X,Y)
+4) Crie um código JavaScript que pergunta por dois números X e Y e retorna o
+maior entre os dois números através de uma função max (X,Y)
+5) Crie um objeto vazio Aluno
+1. Adicione a propriedade nome com o valor com o seu nome.
+2. Adicione a propriedade sobrenome com o valor do seu sobrenome
+3. Troque o nome para o nome de uma pessoa que você gosta muito
+4. Remova a propriedade nome
+5. Verifique se a propriedade “time” existe neste objeto.
+Não esqueça de adicionar um console.log entre cada execução.
+6) Dado o objeto abaixo:
+let salarios = {
+ Neymar: 100,
+ Ronaldinho: 160,
+ Ronaldo: 130
+}
+Escreva uma função que some o salário de todos os jogadores e exiba em uma
+mensagem de alerta.
+- EXERCÍCIOS HTML JAVASCRIPT -
+1. Exiba no console apenas o texto da tag com id=paragrafo (sem tags).
+2. Exiba no console o conteudo dentro das tags <span>.
+3. Obtenha o elemento li com o texto Item 9 dentro dele e exiba esse valor
+4. Crie uma função chamada exibirInnerHTML que receberá 1 parametro (um
+elemento) e dentro da função escreverá o innerHTML no console.
+ 5. Repita essa ação para as tags <p>, <strong>, e <li> com id=item.
