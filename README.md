@@ -25,4 +25,4 @@ mensagem de alerta.
 3. Obtenha o elemento li com o texto Item 9 dentro dele e exiba esse valor
 4. Crie uma função chamada exibirInnerHTML que receberá 1 parametro (um
 elemento) e dentro da função escreverá o innerHTML no console.
- 5. Repita essa ação para as tags <p>, <strong>, e <li> com id=item.
+ 5. Repita essa ação para as tags p, strong, e li com id=item.
